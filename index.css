@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    display: flex;
+    background-color: rgb(79, 79, 248);
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 40px;
+    position: fixed;
+}
+
+.logo{
+    display: flex;
+    width: 300px;
+    height: 100px;
+}
+
+/*nav{
+    display: flex;
+    flex-direction: row;
+}*/
+
+li{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 2px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+span{
+    background-color: rgb(56, 184, 227);
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+
+.our-goals{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    border-radius: 3px;
+}
+
+.box1{
+    width: 300px;
+    background-color: rgb(56, 184, 227);
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+}
+
+.box2{
+    width: 300px;
+    background-color: rgb(79, 79, 248);
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+}
+
+.box3{
+    width: 300px;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+}
+
+  .image{
+    padding-top:160px;
+    display: flex;
+    flex-direction: row;
+  }
+
+.welcome{
+    text-align: center;
+}
+
+.welcome h3{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(0, 0, 94);
+}
+
+#college{
+    padding-top: 40px;
+    width: 320px;
+    height: 300px;
+}
+
+.question{
+    padding-top: 40px;
+    background-color: rgb(238, 236, 236);
+    text-align: left;
+    padding-left: 90px;
+}
+
+.question h3{
+    margin-left: 40px;
+    color: rgb(0, 0, 117);
+    text-transform: capitalize;   
+}
+
+.question #sub-heading{
+    color: rgb(0, 0, 117);
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.question p{
+    line-height: 30px;
+}
+
+.question img{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-right: 150px;
+}
+
+.video-container {
+    position: relative;
+  }
+  
+  .video-container video {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    background-color: rgba(0, 0, 0, 0.5);/* Semi-transparent black background */
+    width: 100%;
+    height: 97%;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  button{
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+  }
+
+  button:hover{
+    background-color: rgb(70, 70, 178);
+  }
+
+  i{
+    font-size: 15px;
+    color: white;
+  }
+
+
+  .events{
+    margin-left: 40px;
+    padding-top: 50px;
+  }
+  
+  .events h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(0, 0, 117);
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+
+.events h2{
+    text-transform: capitalize;
+    color: rgb(43, 42, 42);
+    margin-left: 100px;
+    padding-bottom: 25px;
+}
+
+.events p{
+    line-height: 25px;
+
+}
+
+iframe{
+    float: right;
+    padding-right: 20px;
+}
+
+.gallery{
+    padding-top: 400px;
+    padding-left: 100px;
+}
+.gallery h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 48px;
+    margin-right: 150px;
+}
+
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.six{
+    padding-top: 100px;
+}
+
+.six p{
+    text-align: center;
+    color: rgb(0, 0, 117);
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.six h1{
+    text-align: center;
+}
+
+#quote{
+    color: black;
+    font-weight: normal;
+}
+
+.Subscribe{
+    text-align: center;
+    color: black;
+    padding-top: 140px;
+}
+
+.Subscribe p{
+    font-weight: bold;
+}
+
+.Subscribe input{
+    border: 1px solid black;
+    width: 550px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer img{
+    margin-left: 70px;
+}
+
+#for-email{
+    margin-left: 25px;
+    border-radius: 15px;
+    background-color: rgb(107, 107, 222);
+    height: 45px;
+}
+
+#for-email:hover{
+    background-color: rgb(75, 75, 234);
+}
+
+footer{
+    margin-top: 40px;
+    background-color: rgb(20, 40, 103);
+    padding-left: 40px;
+    padding-top: 15px;
+    display: flex;
+    padding-top: 40px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+
+}
+
+.two{
+    margin-left: 30px;
+    border: none;
+    box-shadow: 0px 10px 2px black;
+    width: 250px;
+    color: white;
+    flex-direction: column;
+}
+
+
+.two h2{
+    padding-top: 5px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+footer i{
+    color: gold;
+}
+
+.three{
+    margin-left: 30px;
+    border: none;
+    box-shadow: 0px 10px 2px black;
+    width: 350px;
+    color: white;
+    display: inline-block;
+}
+
+.three h2{
+    text-align: center;
+}
+.four{
+    margin-left: 30px;
+    border: none;
+    box-shadow: 0px 10px 2px black;
+    width: 350px;
+    color: white;
+    display: inline-block;
+}
+
+.four h2{
+    color: white;
+    text-align: center;
+}
